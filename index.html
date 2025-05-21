@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DermaGlow Clinic – Skin Care Experts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>DermaGlow Clinic</h1>
+      <p>Expert Dermatology and Skincare</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Treatments</a></li>
+        <li><a href="#team">Doctor</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="appointmentBtn">Book Appointment</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="video-container">
+      <video autoplay muted loop playsinline>
+        <source src="hospital.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-overlay">
+        <h2>Your Health, Your Future</h2>
+        <h3><i>Explore our digital wellness tools and guides.</i></h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="content">
+    <h2>Our Dermatology Treatments</h2>
+    <ul class="treatment-list">
+      <li>Hydra Facial</li>
+      <li>Acne and Scar Treatment</li>
+      <li>Anti-wrinkle Injections</li>
+      <li>Derma Filler</li>
+      <li>Hair Loss and Scalp Treatment</li>
+      <li>Mole Removal</li>
+      <li>Anti-Aging Skin Rejuvenation</li>
+      <li>Hyperpigmentation</li>
+      <li>CO2 Laser</li>
+      <li>Open Pores Treatment</li>
+      <li>Carbon Facial</li>
+      <li>CryoFacial</li>
+    </ul>
+    <div class="image-grid">
+      <img src="hydra facial.png" alt="hydra facial">
+      <img src="acne-and-scar.jpg" alt="acne-and-scar">
+      <img src="anti-wrinkle-injections.jpg" alt="anti-wrinkle-injections">
+      <img src="derma-filler.jpg" alt="derma-filler">
+      <img src="middle-aged-man-having-hair-treatment-at-beauty-sa-2021-09-02-22-11-07-utc.jpg" alt="hair loss and scalp treatment">
+      <img src="mole-removal.jpg" alt="mole-removal">
+      <img src="professional-young-female-doctor-cosmetologist-doi-2021-12-09-09-20-44-utc.jpg" alt="anti-aging skin rejuvenation">
+      <img src="hyperpigmentation-1st-image.jpg" alt="hyperpigmentation-1st-image">
+      <img src="co2laser.jpg" alt="co2laser">
+      <img src="open pores.jpg" alt="open pores">
+      <img src="carbon facial.avif" alt="carbon facial">
+      <img src="cyrofacial.jpg" alt="cyrofacial">
+    </div>
+  </section>
+
+  <section id="team" class="content">
+    <h2>Meet Our Expert</h2>
+    <img src="doctor.jpg" alt="Dr. Farwa" class="doctor-img">
+    <p><strong>Dr. Farwa Batool, MD Dermatology</strong><br>
+    15+ years of experience in clinical and cosmetic dermatology.</p>
+  </section>
+
+  <section id="reviews" class="content">
+    <h2>Patient Reviews</h2>
+    <div class="reviews">
+      <blockquote>“Dr. Farwa is amazing! My acne is completely gone.” – Aisha R.</blockquote>
+      <blockquote>“Excellent care and professional staff. Highly recommend!” – Omar K.</blockquote>
+      <blockquote>“The laser hair removal treatment worked wonders.” – Sana M.</blockquote>
+    </div>
+  </section>
+
+  <section id="contact" class="content">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p class="confirmation" id="confirmation"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DermaGlow Clinic. All rights reserved.</p>
+  </footer>
+
+  <!-- Appointment Popup -->
+  <div id="appointmentPopup" class="popup">
+    <div class="popup-content">
+      <span class="close">&times;</span>
+      <h2>Book an Appointment</h2>
+      <form id="appointmentForm">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="date" required>
+        <input type="time" required>
+        <button type="submit">Confirm Appointment</button>
+      </form>
+      <p class="confirmation" id="appointmentConfirm"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
