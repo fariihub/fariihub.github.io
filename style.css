@@ -200,3 +200,12 @@ footer {
   color: #0f0;
   font-weight: bold;
 }
+
+#appointmentBtn {
+  position: fixed;
+  bottom: 0; right: 0;
+  background: linear-gradient(90deg, #1e3c72, #00d2ff);
+  color: #e1e1e1;
+  width: 270px;
+  border-radius: 50px;
+  }
